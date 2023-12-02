@@ -1,0 +1,18 @@
+{
+  "packageDir": "../",
+  "packageName": "fe-sdk",
+  "baseDir": "./src",
+  "entityLibName": "DrizzleORM",
+  "entityExt": "entity",
+  "apiconfExt": "apiconf",
+  "shareExt": "shared",
+  "sharedDirs": ["./src/shared"],
+  "sdkWhiteList": [],
+  "removeFields": [],
+  "monorepoRoot": "./",
+  "dependencies": {
+    "drizzle-orm": "^0.29.1",
+    "@types/better-sqlite3": "^7.6.8"
+  },
+  "dataHookLib": "ReactQuery"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "drizzle-orm-example",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:server": "pnpm --filter=server dev",
+    "dev:expo-app": "pnpm --filter=expo-app start",
+    "dev:next-app": "pnpm --filter=next-app dev",
+    "build:server": "pnpm --filter=server build",
+    "build:next-app": "pnpm --filter=next-app build"
+  }
+}

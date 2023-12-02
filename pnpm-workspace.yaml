@@ -1,0 +1,9 @@
+
+packages:
+ 
+  - ./**
+ 
+  # exclude projects in dist folder
+  - "!**/dist*/**"
+  # exclude .next projects
+  - '!**/.next/**'

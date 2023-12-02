@@ -1,0 +1,31 @@
+{
+  "user": [
+    {
+      "type": "user",
+      "method": "post",
+      "path": "/create-project",
+      "description": "Create project",
+      "category": "project",
+      "needAuth": false,
+      "name": "CreateProject"
+    },
+    {
+      "type": "user",
+      "method": "post",
+      "path": "/create-user",
+      "description": "Create user",
+      "category": "project",
+      "needAuth": false,
+      "name": "CreateUser"
+    },
+    {
+      "type": "user",
+      "method": "get",
+      "path": "/get-all-users-and-projects",
+      "description": "Get all users and projects",
+      "category": "project",
+      "needAuth": false,
+      "name": "GetAllUsersAndProjects"
+    }
+  ]
+}
