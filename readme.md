@@ -1,21 +1,25 @@
 # Tsdk Drizzle ORM example
 
-**Current, doesn't support react-native. Error: non-std C++ exception**
+Install
 
-## Usage
-
-```
-npm run generate
-npm run migrate
-npm run dev
+```sh
+pnpm install
 ```
 
-## Studio
+Run Server
 
-to run web UI use
-
-```
-npm run studio
+```sh
+pnpm dev:server
 ```
 
-reference documentation: [drizzle better-sqlite3 driver](https://github.com/drizzle-team/drizzle-orm/blob/main/drizzle-orm/src/sqlite-core/README.md)
+Run Nextjs app:
+
+```sh
+pnpm dev:next-app
+```
+
+Run Expo(react native) app:
+
+```sh
+pnpm dev:expo-app
+```
