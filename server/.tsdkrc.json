@@ -9,7 +9,7 @@
   "sharedDirs": ["./src/shared"],
   "sdkWhiteList": [],
   "removeFields": [],
-  "monorepoRoot": "./",
+  "monorepoRoot": "../",
   "dependencies": {
     "drizzle-orm": "^0.29.1"
   },
