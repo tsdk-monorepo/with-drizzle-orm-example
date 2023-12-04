@@ -6,6 +6,12 @@ Install
 pnpm install
 ```
 
+Run command for ready:
+
+```sh
+pnpm ready
+```
+
 Run Server
 
 ```sh

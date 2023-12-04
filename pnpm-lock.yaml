@@ -149,8 +149,8 @@ importers:
         specifier: ^4.18.2
         version: 4.18.2
       tsdk-server-adapters:
-        specifier: ^0.0.25
-        version: 0.0.25(express@4.18.2)(zod@3.22.4)
+        specifier: ^0.0.26
+        version: 0.0.26(express@4.18.2)(zod@3.22.4)
       zod:
         specifier: ^3
         version: 3.22.4
@@ -165,8 +165,8 @@ importers:
         specifier: ^0.20.6
         version: 0.20.6
       tsdk:
-        specifier: ^0.0.25
-        version: 0.0.25
+        specifier: ^0.0.26
+        version: 0.0.26
       tsx:
         specifier: ^4.6.1
         version: 4.6.1
@@ -9853,8 +9853,8 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsdk-server-adapters@0.0.25(express@4.18.2)(zod@3.22.4):
-    resolution: {integrity: sha512-38ctLO3TsyaoZoA+wysPR0zSBf+NpPMD8oI+nngAsgy/8MuRvRXtTMb2wr4IoG7PX0CLSeTLsZsRDZDjE7ePnw==}
+  /tsdk-server-adapters@0.0.26(express@4.18.2)(zod@3.22.4):
+    resolution: {integrity: sha512-Pzx8NM1rnBh/eT5o6XZfarYS9zNGgrRAi8hxe61AuNbVdjUsUa7uwNqPjzuITQ98corQJC7GlBbOHvmokaXY5g==}
     peerDependencies:
       express: ^4.18.2
       hono: ^3.10.2
@@ -9873,8 +9873,8 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /tsdk@0.0.25:
-    resolution: {integrity: sha512-Xxn3cCP+9AfxapxY0mEMu3pw3smsCWokQM2b8m5uF8sPSgsKTCrtsKvWrG2cwGWW+faeYLgCj1rczwcyRLHW7Q==}
+  /tsdk@0.0.26:
+    resolution: {integrity: sha512-7tY2TMiaYEOQz4mWsFqbfmmQgDbJ5kEeqoGXmMaLi2Qz05+92HfcZTEkqRmURaeDkn+Zo+WbjLQFdKXVaVkviA==}
     hasBin: true
     dependencies:
       chalk: 4.1.2

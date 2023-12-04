@@ -2,6 +2,7 @@
   "name": "drizzle-orm-example",
   "version": "1.0.0",
   "scripts": {
+    "ready": "pnpm --filter=server sync-sdk",
     "dev:server": "pnpm --filter=server dev",
     "dev:expo-app": "pnpm --filter=expo-app start",
     "dev:next-app": "pnpm --filter=next-app dev",
